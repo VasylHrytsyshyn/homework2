@@ -112,3 +112,33 @@ footer span {
 	color: #FFFFFF;
 	opacity: 0.6;
 }
+/*стилизация портфолио*/
+main a {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+main a:hover {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	letter-spacing: 0.03em;
+	color: #FFFFFF;
+}
+.project-name {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: #212121;
+}
+.project-type {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
