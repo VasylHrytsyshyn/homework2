@@ -149,13 +149,20 @@ main a {
 	line-height: 1.62;
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color);
+
+	background: var(--filter-bg-color);
+	border-radius: 4px;
+	padding: 6px 22px;
 }
-main a:hover {
+main a:hover,
+main a:focus {		
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
 	letter-spacing: 0.03em;
 	color: var(--hero-text-color);
+
+	background: var(--acent-text-color-navigation);
 }
 .project-name {
 	font-weight: 700;
